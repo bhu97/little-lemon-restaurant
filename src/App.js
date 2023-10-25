@@ -1,9 +1,12 @@
 import './App.css';
+import Carousel from './components/Carousel';
+import ResponsiveAppBar from './components/Navbar';
 
 function App() {
   return (
     <div className='App'>
-      <h1>Little Lemon</h1>
+      <ResponsiveAppBar />
+      <Carousel />
     </div>
   );
 }
