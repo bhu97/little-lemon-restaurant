@@ -1,13 +1,17 @@
-import './App.css';
 import Carousel from './components/Carousel';
+import MainPage from './components/MainPage';
 import ResponsiveAppBar from './components/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className='App'>
-      <ResponsiveAppBar />
-      <Carousel />
-    </div>
+    <Router>
+      <div className='App'>
+        <ResponsiveAppBar />
+        <Carousel />
+        <MainPage />
+      </div>
+    </Router>
   );
 }
 
