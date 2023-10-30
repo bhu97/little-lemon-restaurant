@@ -1,0 +1,177 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "category": "Pizza",
+            "items": [
+                {
+                    "id": 100,
+                    "name": "Margharita",
+                    "description": "Margharita",
+                    "price": 80.15,
+                    "image": "https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?size=626&ext=jpg&ga=GA1.1.164866791.1698671716&semt=sph"
+                },
+                {
+                    "id": 101,
+                    "name": "Margharita 1",
+                    "description": "Margharita 1",
+                    "price": 20.15,
+                    "image": "src/assets/pizza2.jpeg"
+                },
+                {
+                    "id": 102,
+                    "name": "Margharita 2",
+                    "description": "Margharita 2",
+                    "price": 17.15,
+                    "image": "../assets/pizza3.jpg"
+
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Burger",
+            "items": [
+                {
+                    "id": 200,
+                    "name": "Burger",
+                    "description": "Burger",
+                    "price": 11.15
+                },
+                {
+                    "id": 201,
+                    "name": "Burger 1",
+                    "description": "burger 1",
+                    "price": 13.15
+                },
+                {
+                    "id": 202,
+                    "name": "Burger 2",
+                    "description": "Burger 2",
+                    "price": 14.15
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Noodles",
+            "items": [
+                {
+                    "id": 300,
+                    "name": "Noodles",
+                    "description": "Noodles",
+                    "price": 50.15,
+                    "image": "https://img.freepik.com/free-photo/fresh-pasta-with-hearty-bolognese-parmesan-cheese-generated-by-ai_188544-9469.jpg?size=626&ext=jpg&ga=GA1.1.164866791.1698671716&semt=sph"
+                },
+                {
+                    "id": 201,
+                    "name": "Noodles 1",
+                    "description": "Noodles 1",
+                    "price": 540.15
+                },
+                {
+                    "id": 202,
+                    "name": "Noodles 2",
+                    "description": "Noodles 2",
+                    "price": 45.15
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Pizza",
+            "items": [
+                {
+                    "id": 100,
+                    "name": "Margharita",
+                    "description": "Margharita",
+                    "price": 10.15
+                },
+                {
+                    "id": 101,
+                    "name": "Margharita 1",
+                    "description": "Margharita 1",
+                    "price": 10.15
+                },
+                {
+                    "id": 102,
+                    "name": "Margharita 2",
+                    "description": "Margharita 2",
+                    "price": 10.15
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Pizza",
+            "items": [
+                {
+                    "id": 100,
+                    "name": "Margharita",
+                    "description": "Margharita",
+                    "price": 10.15
+                },
+                {
+                    "id": 101,
+                    "name": "Margharita 1",
+                    "description": "Margharita 1",
+                    "price": 10.15
+                },
+                {
+                    "id": 102,
+                    "name": "Margharita 2",
+                    "description": "Margharita 2",
+                    "price": 10.15
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Pizza",
+            "items": [
+                {
+                    "id": 100,
+                    "name": "Margharita",
+                    "description": "Margharita",
+                    "price": 10.15
+                },
+                {
+                    "id": 101,
+                    "name": "Margharita 1",
+                    "description": "Margharita 1",
+                    "price": 10.15
+                },
+                {
+                    "id": 102,
+                    "name": "Margharita 2",
+                    "description": "Margharita 2",
+                    "price": 10.15
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "category": "Pizza",
+            "items": [
+                {
+                    "id": 100,
+                    "name": "Margharita",
+                    "description": "Margharita",
+                    "price": 10.15
+                },
+                {
+                    "id": 101,
+                    "name": "Margharita 1",
+                    "description": "Margharita 1",
+                    "price": 10.15
+                },
+                {
+                    "id": 102,
+                    "name": "Margharita 2",
+                    "description": "Margharita 2",
+                    "price": 10.15
+                }
+            ]
+        }
+    ]
+}
