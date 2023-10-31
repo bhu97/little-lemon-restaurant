@@ -1,5 +1,4 @@
 import React from 'react';
-import { Navigate } from 'react-router-dom';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,13 +14,15 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import lemonLogo from '../assets/lemon.svg';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
-const pages = ['Home', 'Booking', 'Blog'];
+const pages = ['home', 'booking', 'blog'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function ResponsiveAppBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  const navigate = useNavigate();
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -31,7 +32,7 @@ function ResponsiveAppBar() {
   };
 
   const handleCloseNavMenu = (to) => {
-    <Navigate to={to} />;
+    navigate(to);
   };
 
   const handleCloseUserMenu = () => {
@@ -122,7 +123,7 @@ function ResponsiveAppBar() {
                 onClick={() => handleCloseNavMenu(`/${page}`)}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                {page.toUpperCase()}
               </Button>
             ))}
           </Box>
